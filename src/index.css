@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+button{
+  cursor: pointer;
+}
+
+.icon {
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.increment{
+  color: lawngreen;
+}
+
+.decrement{
+  color: red;
+}
+
+.reset{
+  color: lightseagreen;
+}
+
+button:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
